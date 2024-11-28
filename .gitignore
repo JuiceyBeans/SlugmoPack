@@ -1,20 +1,19 @@
 /*
 
-!/config
-!/kubejs
-!/defaultconfigs
-!/.gitignore
-!/.gitattributes
-!/manifest.json
-!/tools
-/tools/bootstrap/.cache
-!/.github
+!config
+!kubejs/
+!defaultconfigs
+!.gitignore
+!.gitattributes
+!manifest.json
+!tools
+!.github
 !.editorconfig
 
-/mods/.index
+mods/.index
 
-/config/fml.toml
-/config/jei/world/local/*
+config/fml.toml
+config/jei/world/local/*
 
 config/oculus.properties
 config/modernfix-mixins.properties
@@ -30,7 +29,7 @@ config/embeddium++.toml
 config/emi.css
 config/ichunutil/themes
 
-./options.txt
+options.txt
 
 #Don't ignore the Create client config so we can remove the Main Menu config button
 #it gets in the way of the beautiful FancyMenu
