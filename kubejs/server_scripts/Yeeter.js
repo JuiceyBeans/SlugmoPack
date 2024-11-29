@@ -9,9 +9,15 @@ let yeet = (yeeted) => {
     })
 }
 
-const items = [
+let remove = (removed) => {
+    ServerEvents.recipes(event => {
+        event.remove({ output: removed })
+    })
+}
+
+const recipe_removal_items = [
     'minecraft:compass',
     'irons_spellbooks:firefly_jar'
 ]
 
-items.forEach(item => yeet(item))
+recipe_removal_items.forEach(item => remove(item))
