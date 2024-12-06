@@ -23,7 +23,9 @@ minecraft/config/ichunutil*
 minecraft/config/NoChatReports*
 minecraft/config/simplyswords_extra*
 minecraft/config/simplyswords_main*
+minecraft/config/voicechat*
 minecraft/resourcepacks*
 minecraft/options.txt
 minecraft/config/jei*
 minecraft/config/emi.css
+minecraft/config/oculus.properties
